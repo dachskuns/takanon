@@ -226,7 +226,7 @@ class Information {
 	public function setLcname($lcname) {
 		$this->lcname = $lcname;
 	}
-	public function setSdate($sdate){
+	public function setSdate($sdate) {
 		$this->sdate = $sdate;
 	}
 	public function setResult($result) {
