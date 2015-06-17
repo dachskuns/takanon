@@ -1,6 +1,32 @@
 <?php
 class Information {
 	private $mcode;
+	private $mname;
+	private $adress;
+	private $birth;
+	private $pno;
+	private $sex;
+	private $telno;
+	private $madress;
+	private $pbalance;
+	private $mimg;
+	private $mflg;
+	private $bcode;
+	private $bdate;
+	private $quantity;
+	private $gcode;
+	private $gname;
+	private $gimg;
+	private $price;
+	private $stock;
+	private $comment;
+	private $sccode;
+	private $scname;
+	private $mccode;
+	private $mcname;
+	private $lccode;
+	private $lcname;
+	private $sdate;
 	private $result;
 	private $result_flag;
 	private $column;
@@ -14,6 +40,33 @@ class Information {
 	// ここからGetter
 	public function getMcode() {
 		return $this->mcode;
+	}
+	public function getMname(){
+		return $this->mname;
+	}
+	public function getAdress(){
+		return $this->adress;
+	}
+	public function getBirth(){
+		return $this->birth;
+	}
+	public function getPno(){
+		return $this->pno;
+	}
+	public function getSex(){
+		return $this->sex;
+	}
+	public function getTelno(){
+		return $this->telno;
+	}
+	public function getMadress(){
+		return $this->madress;
+	}
+	public function getPbalance(){
+		return $this->madress;
+	}
+	public function getMimg(){
+		return $this->mimg;
 	}
 	public function getResult() {
 		return $this->result;
