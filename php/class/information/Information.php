@@ -36,37 +36,88 @@ class Information {
 	private $sql;
 	private $link;
 	private $db_selected;
-
+	
 	// ここからGetter
 	public function getMcode() {
 		return $this->mcode;
 	}
-	public function getMname(){
+	public function getMname() {
 		return $this->mname;
 	}
-	public function getAdress(){
+	public function getAdress() {
 		return $this->adress;
 	}
-	public function getBirth(){
+	public function getBirth() {
 		return $this->birth;
 	}
-	public function getPno(){
+	public function getPno() {
 		return $this->pno;
 	}
-	public function getSex(){
+	public function getSex() {
 		return $this->sex;
 	}
-	public function getTelno(){
+	public function getTelno() {
 		return $this->telno;
 	}
-	public function getMadress(){
+	public function getMadress() {
 		return $this->madress;
 	}
-	public function getPbalance(){
+	public function getPbalance() {
 		return $this->madress;
 	}
-	public function getMimg(){
+	public function getMimg() {
 		return $this->mimg;
+	}
+	public function getMflg() {
+		return $this->mflg;
+	}
+	public function getBcode() {
+		return $this->bcode;
+	}
+	public function getBdate() {
+		return $this->bdate;
+	}
+	public function getQuantity() {
+		return $this->quantity;
+	}
+	public function getGcode() {
+		return $this->gcode;
+	}
+	public function getGname() {
+		return $this->gname;
+	}
+	public function getGimg() {
+		return $this->gimg;
+	}
+	public function getPrice() {
+		return $this->price;
+	}
+	public function getStock() {
+		return $this->stock;
+	}
+	public function getComment() {
+		return $this->comment;
+	}
+	public function getSccode() {
+		return $this->sccode;
+	}
+	public function getScname() {
+		return $this->scname;
+	}
+	public function getMccode() {
+		return $this->mccode;
+	}
+	public function getMcname() {
+		return $this->mcname;
+	}
+	public function getLccode() {
+		return $this->lccode;
+	}
+	public function getLcname() {
+		return $this->lcname;
+	}
+	public function getSdate() {
+		return $this->sdate;
 	}
 	public function getResult() {
 		return $this->result;
@@ -95,7 +146,7 @@ class Information {
 	public function getDb_selected() {
 		return $this->db_selected;
 	}
-
+	
 	// ここからSetter
 	public function setMcode($mcode) {
 		$this->mcode = $mcode;
