@@ -36,7 +36,7 @@ class Information {
 	private $sql;
 	private $link;
 	private $db_selected;
-	
+
 	// ここからGetter
 	public function getMcode() {
 		return $this->mcode;
@@ -146,10 +146,88 @@ class Information {
 	public function getDb_selected() {
 		return $this->db_selected;
 	}
-	
+
 	// ここからSetter
 	public function setMcode($mcode) {
 		$this->mcode = $mcode;
+	}
+	public function setMname($mname) {
+		$this->mname = $mname;
+	}
+	public function setAdress($adress) {
+		$this->adress = $adress;
+	}
+	public function setBirth($birth) {
+		$this->birth = $birth;
+	}
+	public function setPno($pno) {
+		$this->pno = $pno;
+	}
+	public function setSex($sex) {
+		$this->sex = $sex;
+	}
+	public function setTelno($telno) {
+		$this->telno = $telno;
+	}
+	public function setMadress($madress) {
+		$this->madress = $madress;
+	}
+	public function setPbalance($pbalance) {
+		$this->pbalance = $pbalance;
+	}
+	public function setMimg($mimg) {
+		$this->mimg = $mimg;
+	}
+	public function setMflg($mflg) {
+		$this->mflg = $mflg;
+	}
+	public function setBcode($bcode) {
+		$this->bcode = $bcode;
+	}
+	public function setBdate($bdate) {
+		$this->bdate = $bdate;
+	}
+	public function setQuantity($quantity) {
+		$this->quantity = $quantity;
+	}
+	public function setGcode($gcode) {
+		$this->gcode = $gcode;
+	}
+	public function setGname($gname) {
+		$this->gname = $gname;
+	}
+	public function setGimg($gimg) {
+		$this->gimg = $gimg;
+	}
+	public function setPrice($price) {
+		$this->price = $price;
+	}
+	public function setStock($stock) {
+		$this->stock = $stock;
+	}
+	public function setComment($comment) {
+		$this->comment = $comment;
+	}
+	public function setSccode($sccode) {
+		$this->sccode = $sccode;
+	}
+	public function setScname($scname) {
+		$this->scname = $scname;
+	}
+	public function setMccode($mccode) {
+		$this->mccode = $mccode;
+	}
+	public function setMcname($mcname) {
+		$this->mcname = $mcname;
+	}
+	public function setLccode($lccode) {
+		$this->lccode = $lccode;
+	}
+	public function setLcname($lcname) {
+		$this->lcname = $lcname;
+	}
+	public function setSdate($sdate){
+		$this->sdate = $sdate;
 	}
 	public function setResult($result) {
 		$this->result = $result;
