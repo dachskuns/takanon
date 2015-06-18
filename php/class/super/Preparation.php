@@ -1,5 +1,5 @@
 <?php
-include (dirname ( __FILE__ )) . '/../information/Information.php';
+include_once (dirname ( __FILE__ )) . '/../information/Information.php';
 class DBOpen {
 	public function Db_Open($db_name) {
 		$info = new Information ();

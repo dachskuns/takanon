@@ -1,5 +1,5 @@
 <?php
-	require '../class/information/Information.php';
+	require_once '../class/information/Information.php';
 	require '../class/super/Preparation.php';
 	$info = new Information();
 	$info->setSql('select');
