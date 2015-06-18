@@ -36,6 +36,7 @@ class Information {
 	private $sql;
 	private $link;
 	private $db_selected;
+	private $conditions_kind;
 
 	// ここからGetter
 	public function getMcode() {
@@ -146,6 +147,9 @@ class Information {
 	public function getDb_selected() {
 		return $this->db_selected;
 	}
+	public function getConditions_kind(){
+		return  $this->conditions_kind;
+	}
 
 	// ここからSetter
 	public function setMcode($mcode) {
@@ -255,6 +259,9 @@ class Information {
 	}
 	public function setDb_selected($db_selected) {
 		$this->db_selected = $db_selected;
+	}
+	public function setConditions_kind($conditions_kind){
+		$this->conditions_kind = $conditions_kind;
 	}
 }
 ?>
