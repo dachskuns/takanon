@@ -20,11 +20,13 @@ class SqlMolding extends DBOpen {
 			$column = ' ' . $info->getColumn ();
 			$table = ' ' . $info->getTable ();
 			$conditions = ' ' . $info->getConditions ();
-			$info->setSql ( $info->getLink ()->prepare ( $sql . $column . ' from' . $table . " where" . $conditions ) );
+			$info->setSql ( $sql . $column . ' from' . $table . " where" . $conditions );
+			$info->setStmt ( $info->getLink ()->prepare ( $info->getSql () ) );
 			array (
 					$_POST [$info->getConditions_kind ()]
 			);
 		}
+		return $info;
 	}
 }
 ?>
